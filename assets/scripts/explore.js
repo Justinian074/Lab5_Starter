@@ -4,6 +4,8 @@ window.addEventListener('DOMContentLoaded', init);
 
 function init() {
   // TODO
+
+  // Code from https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis
   var synth = window.speechSynthesis;
   var voiceSelect = document.getElementById('voice-select');
   var voices = [];
